@@ -25,6 +25,7 @@ AwesomeProject
 
 Let’s go through each directory and its purpose in more detail.
 
+---
 ## **1. assets**
 
 The `assets` directory is where you should put all your static assets, such as fonts and images. It's a good idea to organize these assets into separate subdirectories for each asset type. For example:
@@ -33,8 +34,10 @@ The `assets` directory is where you should put all your static assets, such as f
 assets  
   |--- fonts  
   |--- images
+
 ```
 
+---
 ## **2. screens**
 
 The `screens` directory is where you should put all your application screens or pages. Each screen should have its own directory with the following files:
@@ -76,6 +79,8 @@ export default function useAnimated() {
 
 
 - `components` (optional): Any reusable components used by the screen.
+
+---
 
 ## **3. navigation**
 
@@ -133,6 +138,7 @@ export default NavigationService;
 
 - `linking`: The configuration for deep linking.
 
+---
 ## **4. services**
 
 ###### The `services` directory is where you should put all your code related to external services, such as APIs. It's a good idea to organize these services into separate subdirectories for each service type. For example:
@@ -144,8 +150,8 @@ export default NavigationService;
   ###### |--- responseInterceptor  
   ###### |--- urls  
   ###### |--- UserApi
-###### ```
-
+  ###### ```
+---
 ## **5. components**
 
 ###### The `components` directory is where you should put all your reusable components. Each component should have its own directory with the following files (it is similar to the screen folder structure)
@@ -156,6 +162,7 @@ export default NavigationService;
 ###### - `helper.ts`: Any helper functions related to the component.
 ###### - `useAnimated.ts` (optional): Any animation-related hooks for the component.
 
+---
 ## 6. hooks
 
 ###### The `hooks` directory is where you should put all your custom hooks. Each hook should have its own file. For example:
@@ -189,6 +196,7 @@ export default NavigationService;
 ###### - store.ts: This file should create the Redux store and configure it with any middleware or enhancers required for your app.
 ###### - slices: This folder should contain all the Redux slices in your app. A Redux slice is a piece of the Redux store that can be updated independently of the rest of the store. Each slice should be in a separate file with a descriptive name. For example, `UserSlice.ts`.
 
+---
 ## 7. Utils
 
 ###### The `utils` folder contains various utility functions that are not related to a specific feature or module of the app. Here are some examples of files that might be included in this folder:
@@ -205,7 +213,7 @@ export default NavigationService;
     ###### |--- constants.ts  
     ###### |--- enums.ts
 ###### ```
-
+---
 
 ## Overview **(src/)**
 Here is the complete picture for you
