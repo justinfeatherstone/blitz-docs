@@ -30,28 +30,33 @@ Get NFL Games and Stats For a Single Player
 Get NFL Team Roster
 Get NFL Teams
 
+---
 
+> [!warning] 
+> 
+> The "Get NFL Teams" endpoint requires careful handling due to its extensive data return [2].
 
-The "Get NFL Teams" endpoint requires careful handling due to its extensive data return [2].
-
-
-Current Focus Areas
+#### Current Focus Areas //
 
 Setting up the basic app structure
 Implementing API calls to fetch real-time NFL data
 Designing the user interface for displaying fantasy football information
 
-Challenges and Considerations
+#### Challenges and Considerations //
 
 Data Management: Handling large datasets returned by some API endpoints
 Real-time Updates: Ensuring the app can handle frequent updates during live games
 User Experience: Designing an intuitive interface for managing fantasy teams and viewing stats
 
-Next Steps
+#### Next Steps //
 
-Complete the basic app structure
-Implement and test API integrations
+Continue working on the basic app structure (Navigation layouts and structure)
+
+> [!important] 
+> Implement and ensure we ***test*** API integrations
+
 Begin work on the user interface design
+
 Consider adding features like player comparisons or team analytics
 
 Notes

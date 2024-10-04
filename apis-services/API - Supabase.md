@@ -5,7 +5,7 @@
 
 ## Overview
 
-We are initially implementing user authentication for our Blitz fantasy football app using ****supabase**** Auth. ****supabase**** provides a robust, flexible, and easy-to-implement authentication system that integrates seamlessly with its database features.
+We are initially implementing user authentication for our Blitz fantasy football app using **supabase** Auth. **supabase** provides a robust, flexible, and easy-to-implement authentication system that integrates seamlessly with its database features.
 
 ## Key Components
 
@@ -20,17 +20,17 @@ We are initially implementing user authentication for our Blitz fantasy football
    - [ ] Phone authentication (SMS)
 
 2. **JSON Web Tokens (JWTs)**
-   - ****supabase**** uses JWTs for secure authentication
+   - **supabase** uses JWTs for secure authentication
    - JWTs contain user information and are signed to ensure integrity
 
 3. **Row Level Security (RLS)**
-   - Integrates with ****supabase**** database for fine-grained access control
+   - Integrates with **supabase** database for fine-grained access control
    - Allows us to define who can read, create, update, or delete data
 
 ## Implementation Steps
 
 1. **Project Setup**
-   - Created a new ****supabase**** project for Blitz
+   - Created a new **supabase** project for Blitz
    - Obtained API keys and configuration details
 
 2. **Client-Side Integration**
